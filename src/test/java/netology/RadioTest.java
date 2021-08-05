@@ -103,4 +103,40 @@ class RadioTest {
 
         assertEquals(9 ,radio.getCurrentRadioStation());
     }
+
+    @Test
+    public void correctWorkSetCurrentRadioStation() {
+        Radio radio = new Radio ();
+        radio.setCurrentRadioStation(20);
+
+
+        assertEquals(0 ,radio.getCurrentRadioStation());
+    }
+
+    @Test
+    public void correctWorkSetSoundVolume() {
+        Radio radio = new Radio ();
+        radio.setSoundVolume(20);
+
+
+        assertEquals(0 ,radio.getSoundVolume());
+    }
+
+    @Test
+    public void correctWorkSetCurrentRadioStation2() {
+        Radio radio = new Radio ();
+        radio.setCurrentRadioStation(-10);
+
+
+        assertEquals(0 ,radio.getCurrentRadioStation());
+    }
+
+    @Test
+    public void correctWorkSetSoundVolum2e() {
+        Radio radio = new Radio ();
+        radio.setSoundVolume(-10);
+
+
+        assertEquals(0 ,radio.getSoundVolume());
+    }
 }
