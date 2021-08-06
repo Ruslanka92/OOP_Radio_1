@@ -132,7 +132,7 @@ class RadioTest {
     }
 
     @Test
-    public void correctWorkSetSoundVolum2e() {
+    public void correctWorkSetSoundVolume2() {
         Radio radio = new Radio ();
         radio.setSoundVolume(-10);
 
